@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .main-heading{
+            padding: 50px 0 0 0;
+            
+        }
+        h1.main-heading {
+            color: #5e5ec6;
+            font-size: 32px;
+        }
+        .box-pdf{
+            padding: 50px;
+            margin: auto;
+            text-align: center;
+        }
+        .box-pdf img{
+            height: 50px;
+            margin: 20px 0
+           
+        }
+        .box-pdf{
+            padding: 30px;
+            border: 2px solid red;
+            margin: 15px 0;
+        }
+        .box-pdf p{
+            color: red;
+        }
+        .sub-heading{
+            padding: 30px 0 40px;
+        }
+        .sub-heading h4{
+            text-align: center;
+            font-weight: 400;
+            color: red;
+        }
+        a.btn-dwnld {
+            background: #5e5ec6;
+            color: #fff;
+            margin: 10px 0;
+        }
+        a.btn-dwnld:hover {
+            background: #4f4fa5;
+            color: #fff;
+            margin: 10px 0;
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center main-heading">KARNAJORA AGNIBINA SEVA SAMITY</h1>
+            <div class="sub-heading">
+                <h4>Govt Regd. No. S/1L/3208</h4>
+                <h4>Established On 15th January, 1998</h4>
+            </div>
+
+        <!-- <div class="main-pdf-box"> -->
+            <div class="col-md-6 col-sm-6">
+                <h5 class="text-center">Recruitment Notice</h5>
+                <div class="box-pdf">
+                    <img src="/img/pdf.png" alt="">
+                    <div>
+                        <button type=submit class="btn btn-danger" onclick=" window.open('/rec.pdf'); return true;"><i class="fa fa-eye" aria-hidden="true"></i> CLICK TO VIEW </button>
+                        <a class="btn btn-dwnld" href="/rec.pdf" download>
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> CLICK TO DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h5 class="text-center">Application Format</h5>
+                <div class="box-pdf">
+                    <img src="/img/pdf.png" alt="">
+                    <div>
+                        <button type=submit class="btn btn-danger" onclick=" window.open('/format.pdf'); return true;"><i class="fa fa-eye" aria-hidden="true"></i> CLICK TO VIEW </button>
+                        <a class="btn btn-dwnld" href="/format.pdf" download>
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i> CLICK TO DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        </div>
+    </div>
+    
+</body>
+</html>
